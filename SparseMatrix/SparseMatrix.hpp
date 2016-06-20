@@ -42,7 +42,6 @@
 #include <string>
 using namespace std;
 
-#define EMPTY_ELEMENT_SYMBOL 0
 
 struct Element {
     int col;
@@ -328,7 +327,7 @@ ostream & operator << (ostream &out, ElementList list){
             ptr = ptr->next;
         }
         else
-            out << EMPTY_ELEMENT_SYMBOL << " ";
+            out << 0 << " ";
     }
     out << "]";
     return out;
