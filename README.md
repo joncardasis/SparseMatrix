@@ -73,3 +73,6 @@ matrix[2][4] = 4;
 
 xirtam = matrix.tr();
 ```
+
+## License
+SparseMatrix is available under the MIT license. See the LICENSE file for more info.
